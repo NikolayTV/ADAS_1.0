@@ -1,0 +1,399 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="0.7.1.conv2.weight" out_port_id="0.7.1.conv2.weight"/>
+		<IR id="101" name="198/mean/Fused_Mul_41104112_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="145" out_port_id="145"/>
+		<IR id="17" name="145" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="163" out_port_id="163"/>
+		<IR id="47" name="163/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="197" out_port_id="197"/>
+		<IR id="102" name="197" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="196" out_port_id="196"/>
+		<IR id="100" name="196" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="191" out_port_id="191"/>
+		<IR id="93" name="191/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="184" out_port_id="184"/>
+		<IR id="80" name="184" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="0.7.0.downsample.0.weight" out_port_id="0.7.0.downsample.0.weight"/>
+		<IR id="90" name="191/mean/Fused_Mul_40944096_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="175" out_port_id="175"/>
+		<IR id="67" name="175/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="183" out_port_id="183"/>
+		<IR id="79" name="183" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="214" out_port_id="214"/>
+		<IR id="121" name="214" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="139" out_port_id="139"/>
+		<IR id="8" name="139" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="156" out_port_id="156"/>
+		<IR id="35" name="156" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="189" out_port_id="189"/>
+		<IR id="89" name="189/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="172" out_port_id="172"/>
+		<IR id="61" name="172" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.4.1.conv1.weight" out_port_id="0.4.1.conv1.weight"/>
+		<IR id="18" name="147/mean/Fused_Mul_40464048_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="195" out_port_id="195"/>
+		<IR id="99" name="195/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="212" out_port_id="212"/>
+		<IR id="116" name="212/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.7.1.conv1.weight" out_port_id="0.7.1.conv1.weight"/>
+		<IR id="96" name="195/mean/Fused_Mul_41064108_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="143" out_port_id="143"/>
+		<IR id="15" name="143/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.6.0.conv2.weight" out_port_id="0.6.0.conv2.weight"/>
+		<IR id="60" name="173/mean/Fused_Mul_40824084_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="136" out_port_id="136"/>
+		<IR id="4" name="136/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="177" out_port_id="177"/>
+		<IR id="69" name="177" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="181" out_port_id="181"/>
+		<IR id="76" name="181" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="182" out_port_id="182"/>
+		<IR id="78" name="182/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="176" out_port_id="176"/>
+		<IR id="68" name="176" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="152" out_port_id="152"/>
+		<IR id="28" name="152" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="165" out_port_id="165"/>
+		<IR id="50" name="165" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="167" out_port_id="167"/>
+		<IR id="53" name="167" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="211" out_port_id="211"/>
+		<IR id="112" name="211" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.7.0.conv1.weight" out_port_id="0.7.0.conv1.weight"/>
+		<IR id="81" name="186/mean/Fused_Mul_40984100_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="202" out_port_id="202"/>
+		<IR id="109" name="202/reduce" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="138" out_port_id="138"/>
+		<IR id="6" name="138" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="140" out_port_id="140"/>
+		<IR id="10" name="140/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="198" out_port_id="198"/>
+		<IR id="104" name="198/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="157" out_port_id="157"/>
+		<IR id="37" name="157/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="149" out_port_id="149"/>
+		<IR id="24" name="149" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.4.0.conv2.weight" out_port_id="0.4.0.conv2.weight"/>
+		<IR id="12" name="143/mean/Fused_Mul_40424044_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="199" out_port_id="199"/>
+		<IR id="105" name="199" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="173" out_port_id="173"/>
+		<IR id="63" name="173/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="178" out_port_id="178"/>
+		<IR id="71" name="178" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="210" out_port_id="210"/>
+		<IR id="111" name="211/Cast_16014_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="170" out_port_id="170"/>
+		<IR id="58" name="170/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="142" out_port_id="142"/>
+		<IR id="13" name="142" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="160" out_port_id="160"/>
+		<IR id="42" name="160" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="187" out_port_id="187"/>
+		<IR id="85" name="187" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="147" out_port_id="147"/>
+		<IR id="21" name="147/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.4.0.conv1.weight" out_port_id="0.4.0.conv1.weight"/>
+		<IR id="7" name="140/mean/Fused_Mul_40384040_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="216" out_port_id="0"/>
+		<IR id="129" name="216" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.7.0.conv2.weight" out_port_id="0.7.0.conv2.weight"/>
+		<IR id="86" name="189/mean/Fused_Mul_41024104_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="137" out_port_id="137"/>
+		<IR id="5" name="137" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="1.4.weight" out_port_id="1.4.weight"/>
+		<IR id="117" name="onnx_initializer_node_1.4.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="186" out_port_id="186"/>
+		<IR id="84" name="186/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="input.1" out_port_id="input.1"/>
+		<IR id="0" name="input.1" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="169" out_port_id="169"/>
+		<IR id="56" name="169" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="135" out_port_id="135"/>
+		<IR id="2" name="135" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.5.0.conv1.weight" out_port_id="0.5.0.conv1.weight"/>
+		<IR id="29" name="154/mean/Fused_Mul_40584060_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="158" out_port_id="158"/>
+		<IR id="39" name="158" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="171" out_port_id="171"/>
+		<IR id="59" name="171" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="153" out_port_id="153"/>
+		<IR id="30" name="153" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="180" out_port_id="180"/>
+		<IR id="74" name="180" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="154" out_port_id="154"/>
+		<IR id="32" name="154/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="179" out_port_id="179"/>
+		<IR id="73" name="179/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="174" out_port_id="174"/>
+		<IR id="65" name="174" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.5.1.conv1.weight" out_port_id="0.5.1.conv1.weight"/>
+		<IR id="44" name="163/mean/Fused_Mul_40664068_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="188" out_port_id="188"/>
+		<IR id="87" name="188" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="192" out_port_id="192"/>
+		<IR id="94" name="192" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="1.8.weight" out_port_id="1.8.weight"/>
+		<IR id="126" name="onnx_initializer_node_1.8.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="164" out_port_id="164"/>
+		<IR id="48" name="164" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="151" out_port_id="151"/>
+		<IR id="27" name="151" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.6.1.conv1.weight" out_port_id="0.6.1.conv1.weight"/>
+		<IR id="70" name="179/mean/Fused_Mul_40864088_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="162" out_port_id="162"/>
+		<IR id="45" name="162" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="144" out_port_id="144"/>
+		<IR id="16" name="144" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.4.1.conv2.weight" out_port_id="0.4.1.conv2.weight"/>
+		<IR id="23" name="150/mean/Fused_Mul_40504052_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="203" out_port_id="203"/>
+		<IR id="110" name="203" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="159" out_port_id="159"/>
+		<IR id="41" name="159/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.5.1.conv2.weight" out_port_id="0.5.1.conv2.weight"/>
+		<IR id="49" name="166/mean/Fused_Mul_40704072_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="193" out_port_id="193"/>
+		<IR id="95" name="193" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="168" out_port_id="168"/>
+		<IR id="54" name="168" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="166" out_port_id="166"/>
+		<IR id="52" name="166/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.6.0.conv1.weight" out_port_id="0.6.0.conv1.weight"/>
+		<IR id="55" name="170/mean/Fused_Mul_40784080_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="161" out_port_id="161"/>
+		<IR id="43" name="161" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="150" out_port_id="150"/>
+		<IR id="26" name="150/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="201" out_port_id="201"/>
+		<IR id="107" name="201" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="185" out_port_id="185"/>
+		<IR id="82" name="185" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="200" out_port_id="200"/>
+		<IR id="106" name="200" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="0.0.weight" out_port_id="0.0.weight"/>
+		<IR id="1" name="136/mean/Fused_Mul_40344036_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="146" out_port_id="146"/>
+		<IR id="19" name="146" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="213" out_port_id="213"/>
+		<IR id="120" name="213" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.6.1.conv2.weight" out_port_id="0.6.1.conv2.weight"/>
+		<IR id="75" name="182/mean/Fused_Mul_40904092_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="190" out_port_id="190"/>
+		<IR id="91" name="190" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="148" out_port_id="148"/>
+		<IR id="22" name="148" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="155" out_port_id="155"/>
+		<IR id="33" name="155" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="194" out_port_id="194"/>
+		<IR id="97" name="194" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.6.0.downsample.0.weight" out_port_id="0.6.0.downsample.0.weight"/>
+		<IR id="64" name="175/mean/Fused_Mul_40744076_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="0.5.0.conv2.weight" out_port_id="0.5.0.conv2.weight"/>
+		<IR id="34" name="157/mean/Fused_Mul_40624064_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="141" out_port_id="141"/>
+		<IR id="11" name="141" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="215" out_port_id="215"/>
+		<IR id="125" name="215/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="0.5.0.downsample.0.weight" out_port_id="0.5.0.downsample.0.weight"/>
+		<IR id="38" name="159/mean/Fused_Mul_40544056_const" out_port_id="1"/>
+	</map>
+</mapping>
