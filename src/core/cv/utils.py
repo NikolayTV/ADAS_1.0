@@ -26,7 +26,7 @@ def draw_detection_roi(frame, bbox):
                   tuple(bbox[:2]), tuple(bbox[2:4]),
                   (0, 220, 0), 2)
 
-def draw_head_pose(frame, bbox, head_pose_angles):
+def draw_head_pose(frame, bbox, head_pose_angles, upper_point_ellipse):
     # Draw headPoseAxes
     # Here head_position_x --> angle_y_fc  # Yaw
     #      head_position_y --> angle_p_fc  # Pitch
@@ -37,7 +37,8 @@ def draw_head_pose(frame, bbox, head_pose_angles):
     faceBoundingBoxHeight = bbox[3] - bbox[1]
 
     xCenter = int((bbox[2] + bbox[0]) / 2)
-    yCenter = int((bbox[3] + bbox[1]) / 2)
+    # yCenter = int((bbox[3] + bbox[1]) / 2)
+    yCenter = int(upper_point_ellipse)
 
     sinY = sin(yaw * pi / 180.0)
     sinP = sin(pitch * pi / 180.0)
@@ -72,3 +73,23 @@ def draw_single_person_pose_estimation(frame, persons_keypoints, person_bboxes):
         print('len(pose)', len(pose))
         for id_kpt, kpt in enumerate(pose):
             cv2.circle(frame, (int(kpt[0]), int(kpt[1])), 3, (0, 0, 255), -1)
+
+
+        if awake:
+            # Head BBOX
+            bbox = face_bboxes[0]
+            x_center = int(bbox[0] + bbox[2])
+            y_center = int(bbox[1] + bbox[3])
+            center = (x_center, y_center)
+
+            x_axes = int((bbox[2] - bbox[0]) / 2)
+            y_axes = int((bbox[3] - bbox[1]) / 2)
+            axes = (x_axes, y_axes)
+
+            # cv2.rectangle(drawed_frame, tuple(face_bboxes[0][:2]), tuple(face_bboxes[0][2:4]), (0, 220, 0), 2)
+            cv2.ellipse(drawed_frame, center, axes, 0.0, 0.0, 360.0, (0, 220, 0), 0)
+
+        else:
+            # cv2.rectangle(drawed_frame, tuple(face_bboxes[0][:2]), tuple(face_bboxes[0][2:4]), (20, 0, 150), 2)
+            cv2.ellipse(drawed_frame, center, axes, 0.0, 0.0, 360.0, (20, 0, 150), 0)
+    # except:

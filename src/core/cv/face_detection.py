@@ -46,7 +46,7 @@ class OpenVino_face_detector(object):
         output['faces'] = []
         bboxes = []
         face_ID = 0
-        for obj in res_det[self.out_name_det][0][0]:  # obj = [ image_id, label, conf, xmin, ymin, xmax, ymax ]
+        for obj in res_det[self.out_name_det][0][0][:1]:  # obj = [ image_id, label, conf, xmin, ymin, xmax, ymax ]
             if obj[2] > confidence:  # Confidence > 0.5%
                 # Rescale bbox to original img size
                 xmin = abs(int(obj[3] * width))
